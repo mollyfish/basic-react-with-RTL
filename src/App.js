@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import Greeting from './Greeting';
 
 class App extends Component {
   render() {
     return (
-      <h1>Hi there!</h1>
+      <Greeting />
     );
   }
 }
